@@ -9,6 +9,12 @@
 #define ECB 1
 
 #include "aes.h"
+// In VC should be like
+/*
+extern "C" {
+	#include "aes.h"
+}
+*/
 
 
 static void phex(uint8_t* str);
