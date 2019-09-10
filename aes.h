@@ -1,7 +1,22 @@
 #ifndef _AES_H_
 #define _AES_H_
 
-#include <stdint.h>
+//#include <stdint.h>
+
+//replace stdint.h modify liuyi
+typedef __int8              int8_t;
+typedef __int16             int16_t;
+typedef __int32             int32_t;
+typedef __int64             int64_t;
+typedef unsigned __int8     uint8_t;
+typedef unsigned __int16    uint16_t;
+typedef unsigned __int32    uint32_t;
+typedef unsigned __int64    uint64_t;
+
+
+typedef int			intptr_t;//system wordsize (32bit int) 
+typedef unsigned int		uintptr_t;//system wordsize (32bit int) 
+//end replace
 
 // #define the macros below to 1/0 to enable/disable the mode of operation.
 //
